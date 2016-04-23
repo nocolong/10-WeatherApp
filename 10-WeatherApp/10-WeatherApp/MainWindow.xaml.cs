@@ -44,7 +44,7 @@ namespace _10_WeatherApp
                 //"using" ensures the WebClient method is used only for this code block, then terminates use
                 using (var webClient = new WebClient())
                 {
-                    //wha??
+                    //
                     byte[] bytes = webClient.DownloadData(result.icon_url);
 
                     File.WriteAllBytes(fileUrl, bytes);
@@ -53,7 +53,7 @@ namespace _10_WeatherApp
             //BitmapImage is a class used for loading images using xaml
             BitmapImage image = new BitmapImage(new Uri(fileUrl));
 
-            //?? .Source
+            //
             imageWeather.Source = image;
 
             //Populates specified info through 'result.'(which comes from GetWeatherFor and zipcode) to textBlocks

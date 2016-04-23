@@ -5,19 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_10_WeatherApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="500" Width="750">
     <Grid Background="#FF2FB6CB">
-        <Image x:Name="imageWeather" HorizontalAlignment="Left" Height="200" Margin="10,10,0,0" VerticalAlignment="Top" Width="223"/>
-        <Button x:Name="buttonGetWeather" Content="Get Weather" HorizontalAlignment="Left" Margin="249,10,0,0" VerticalAlignment="Top" Width="258" Height="55" Click="buttonGetWeather_Click"/>
-        <TextBlock x:Name="tempBlockf" HorizontalAlignment="Left" Margin="249,181,0,0" TextWrapping="Wrap" Text="Tempf." VerticalAlignment="Top" Height="30" Width="100" FontWeight="Bold" FontStyle="Italic" Background="#FFFBF8F8"/>
-        <TextBlock x:Name="tempBlockc" HorizontalAlignment="Left" Margin="380,180,0,0" TextWrapping="Wrap" Text="Tempc." VerticalAlignment="Top" Height="30" Width="100" FontWeight="Bold" FontStyle="Italic" Background="#FFFBF8F8"/>
-        <TextBlock x:Name="textBlockHumidity" HorizontalAlignment="Left" Margin="380,131,0,0" TextWrapping="Wrap" Text="Humidity" VerticalAlignment="Top" Height="30" Width="120" Background="#FFFBF8F8" FontWeight="Bold" FontStyle="Italic" RenderTransformOrigin="0.69,-0.331"/>
-        <TextBlock x:Name="textBlockWeather" HorizontalAlignment="Left" Margin="249,70,0,0" TextWrapping="Wrap" Text="Weather" VerticalAlignment="Top" Height="40" Width="126" Background="#FFFBF8F8" FontWeight="Bold" FontStyle="Italic"/>
-        <TextBlock x:Name="textBlockLongitude" Margin="10,273,257,0" TextWrapping="Wrap" Text="Longitude" VerticalAlignment="Top" Background="#FFFBF8F8" FontWeight="Bold" FontStyle="Italic" Width="250" Height="30"/>
-        <TextBlock x:Name="textBlockLatitude" HorizontalAlignment="Left" Margin="260,273,0,0" TextWrapping="Wrap" Text="Latitude" VerticalAlignment="Top" Width="250" Background="#FFFBF8F8" FontWeight="Bold" FontStyle="Italic" Height="30"/>
-        <TextBlock x:Name="textBlockElevation" HorizontalAlignment="Left" Margin="249,131,0,0" TextWrapping="Wrap" Text="Elevation" VerticalAlignment="Top" Height="30" Width="110" Background="#FFFBF8F8" FontWeight="Bold"/>
-        <TextBlock x:Name="textBlockUV" HorizontalAlignment="Left" Margin="381,70,0,0" TextWrapping="Wrap" Text="UV" VerticalAlignment="Top" Height="40" Width="126" Background="#FFF8FBFB" FontWeight="Bold" FontStyle="Italic"/>
-        <TextBlock x:Name="textBlockObservationTime" HorizontalAlignment="Left" Margin="249,216,0,0" TextWrapping="Wrap" Text="Observation Time" VerticalAlignment="Top" Width="251" Height="40" Background="#FFFBF8F8" FontWeight="Bold" FontStyle="Italic"/>
+        <Image x:Name="imageWeather" HorizontalAlignment="Left" Height="379" Margin="10,81,0,0" VerticalAlignment="Top" Width="441"/>
+        <Button x:Name="buttonGetWeather" Content="Get Weather" Margin="10,10,10,0" VerticalAlignment="Top" Height="55" FontWeight="Bold" FontStyle="Italic" Click="buttonGetWeather_Click" FontSize="21.333"/>
+        <TextBlock x:Name="tempBlockf" HorizontalAlignment="Left" Margin="468,212,0,0" TextWrapping="Wrap" Text="Tempf." VerticalAlignment="Top" Height="40" Width="126" FontWeight="Bold" FontStyle="Italic" Background="#FFFBF8F8"/>
+        <TextBlock x:Name="tempBlockc" Margin="608,212,10,0" TextWrapping="Wrap" Text="Tempc." VerticalAlignment="Top" Height="40" FontWeight="Bold" FontStyle="Italic" Background="#FFFBF8F8"/>
+        <TextBlock x:Name="textBlockHumidity" Margin="608,145,10,0" TextWrapping="Wrap" Text="Humidity" VerticalAlignment="Top" Height="40" Background="#FFFBF8F8" FontWeight="Bold" FontStyle="Italic" RenderTransformOrigin="0.69,-0.331"/>
+        <TextBlock x:Name="textBlockWeather" HorizontalAlignment="Left" Margin="468,81,0,0" TextWrapping="Wrap" Text="Weather" VerticalAlignment="Top" Height="40" Width="126" Background="#FFFBF8F8" FontWeight="Bold" FontStyle="Italic"/>
+        <TextBlock x:Name="textBlockLongitude" Margin="468,351,10,0" TextWrapping="Wrap" Text="Longitude" VerticalAlignment="Top" Background="#FFFBF8F8" FontWeight="Bold" FontStyle="Italic" Height="45"/>
+        <TextBlock x:Name="textBlockLatitude" Margin="468,415,10,0" TextWrapping="Wrap" Text="Latitude" VerticalAlignment="Top" Background="#FFFBF8F8" FontWeight="Bold" FontStyle="Italic" Height="45"/>
+        <TextBlock x:Name="textBlockElevation" HorizontalAlignment="Left" Margin="468,145,0,0" TextWrapping="Wrap" Text="Elevation" VerticalAlignment="Top" Height="40" Width="126" Background="#FFFBF8F8" FontWeight="Bold"/>
+        <TextBlock x:Name="textBlockUV" Margin="608,81,10,0" TextWrapping="Wrap" Text="UV" VerticalAlignment="Top" Height="40" Background="#FFF8FBFB" FontWeight="Bold" FontStyle="Italic"/>
+        <TextBlock x:Name="textBlockObservationTime" Margin="468,279,9,0" TextWrapping="Wrap" Text="Observation Time" VerticalAlignment="Top" Height="45" Background="#FFFBF8F8" FontWeight="Bold" FontStyle="Italic"/>
 
     </Grid>
 </Window>
